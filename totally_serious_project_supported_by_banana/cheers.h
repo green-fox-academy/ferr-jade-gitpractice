@@ -9,7 +9,7 @@
 class cheers {
 
 public:
-    void cheer();
+    void cheer(int how_many_times);
 
 };
 

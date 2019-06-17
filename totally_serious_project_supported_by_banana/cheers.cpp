@@ -4,7 +4,9 @@
 
 #include "cheers.h"
 
-void cheer()
+void cheer(int howm_any_times)
 {
-    std::cout << "Feri látta, Johannsteine!" << std::endl;
+    for (int i = 0; i < howm_any_times; ++i) {
+        std::cout << "Feri látta, Johannsteine!" << std::endl;
+    }
 }
