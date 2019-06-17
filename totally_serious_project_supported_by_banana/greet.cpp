@@ -2,8 +2,9 @@
 // Created by hun46 on 2019. 06. 17..
 //
 #include <iostream>
+#include <string.h>
 
-void greet()
+void greet(string s)
 {
-    std::cout << "your name" << std::endl
+    std::cout << s << std::endl;
 }
