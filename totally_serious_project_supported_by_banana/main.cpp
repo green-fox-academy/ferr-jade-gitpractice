@@ -2,7 +2,7 @@
 #include <string.h>
 
 void greet(std::string);
-void count(int);
+void count(int, int);
 void cheer(int);
 
 int main()
@@ -16,9 +16,9 @@ void greet(std::string s)
     std::cout << "Greetings, my ksdhfgsksjdfgkaf" << std::endl;
 }
 
-void count(int a)
+void count(int a, int b)
 {
-    std::cout << "IX lol" << std::endl;
+    std::cout << a << b << std::endl;
 }
 
 void cheer(int how_many_times)
