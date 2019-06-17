@@ -4,7 +4,9 @@
 #include <iostream>
 #include <string.h>
 
-void greet(string s)
+
+void greet(std::string s)
 {
     std::cout << s << std::endl;
+    std::cout << "Greetings, my fellow african american friend!" << std::endl;
 }
