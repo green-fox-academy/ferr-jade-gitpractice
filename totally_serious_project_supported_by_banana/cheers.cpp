@@ -7,6 +7,6 @@
 void cheer(int howm_any_times)
 {
     for (int i = 0; i < howm_any_times; ++i) {
-        std::cout << "Feri látta, Johannsteine!" << std::endl;
+        std::cout << "C++" << std::endl;
     }
 }
