@@ -7,7 +7,6 @@ void cheer(int);
 
 int main()
 {
-    // ssssshhhhhh
     return 0;
 }
 
