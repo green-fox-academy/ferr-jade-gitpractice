@@ -11,5 +11,5 @@ int main()
 
 void count(int a)
 {
-    std::cout << a << std::endl;
+    std::cout << "IX" << std::endl;
 }
