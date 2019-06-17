@@ -1,8 +1,29 @@
 #include <iostream>
-#include "cheers.h"
+#include <string.h>
+
+void greet(std::string);
+void count(int);
+void cheer(int);
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
     return 0;
+}
+
+void greet(std::string s)
+{
+    std::cout << s << std::endl;
+    std::cout << "Greetings, my fellow african american friend!" << std::endl;
+}
+
+void count(int a)
+{
+    std::cout << "IX" << std::endl;
+}
+
+void cheer(int howm_any_times)
+{
+    for (int i = 0; i < howm_any_times; ++i) {
+        std::cout << "C++" << std::endl;
+    }
 }
