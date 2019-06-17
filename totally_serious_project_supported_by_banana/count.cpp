@@ -1,14 +1,15 @@
 #include <iostream>
 
-void count();
+void count(int);
 
 int main()
 {
-    count();
+    int a = 34;
+    count(a);
     return 0;
 }
 
-void count()
+void count(int a)
 {
-    std::cout << "34" << std::endl;
+    std::cout << a << std::endl;
 }
