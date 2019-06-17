@@ -13,7 +13,7 @@ int main()
 void greet(std::string s)
 {
     std::cout << s << std::endl;
-    std::cout << "Greetings, my ksdhfgsksjdfgkaf" << std::endl;
+    std::cout << "Greetings kicsifrodó" << std::endl;
 }
 
 void count(int a, int b)
