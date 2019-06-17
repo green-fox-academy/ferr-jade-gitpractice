@@ -14,6 +14,8 @@ void greet(std::string s)
 {
     std::cout << s << std::endl;
     std::cout << "Greetings, my kaki" << std::endl;
+
+
 }
 
 void count(int a, int b)
