@@ -7,6 +7,7 @@ void cheer(int);
 
 int main()
 {
+    // ssssshhhhhh
     return 0;
 }
 
@@ -21,9 +22,9 @@ void count(int a)
     std::cout << "IX lol" << std::endl;
 }
 
-void cheer(int howm_any_times)
+void cheer(int how_many_times)
 {
-    for (int i = 0; i < howm_any_times; ++i) {
+    for (int i = 0; i < how_many_times; ++i) {
         std::cout << "C++" << std::endl;
     }
 }
