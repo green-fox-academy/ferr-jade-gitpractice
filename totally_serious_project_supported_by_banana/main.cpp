@@ -18,7 +18,7 @@ void greet(std::string s)
 
 void count(int a)
 {
-    std::cout << "IX" << std::endl;
+    std::cout << "IX lol" << std::endl;
 }
 
 void cheer(int howm_any_times)
